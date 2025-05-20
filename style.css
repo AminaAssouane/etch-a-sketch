@@ -7,9 +7,17 @@ body {
   background: #f8f8f8;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container {
   display: flex;
   flex-direction: column; /* Stack rows vertically */
+  width: 640px;
+  height: 640px;
   gap: 0;
   border: 2px solid #ccc;
 }
@@ -20,8 +28,11 @@ body {
 }
 
 .square {
-  width: 40px;
-  height: 40px;
   background-color: #e0e0e0;
   outline: 1px solid #ccc; /* outline instead of border */
+  transition: background-color 0.2s ease;
+}
+
+button {
+  margin: 10px;
 }

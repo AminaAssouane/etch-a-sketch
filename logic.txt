@@ -1,0 +1,2 @@
+Removing the grid : 
+	delete all children of class container 
